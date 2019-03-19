@@ -1,0 +1,817 @@
+Preprocessing ['/home/guest/Desktop/Common_Data_New/train.csv']
+functools.partial(<function process_single_file at 0x7f03f3bb5f28>, numcep=26, numcontext=9, alphabet=<util.text.Alphabet object at 0x7f03ec3b1860>)
+Preprocessing done
+Preprocessing ['/home/guest/Desktop/Common_Data_New/dev.csv']
+functools.partial(<function process_single_file at 0x7f03f3bb5f28>, numcep=26, numcontext=9, alphabet=<util.text.Alphabet object at 0x7f03ec3b1860>)
+Preprocessing done
+I STARTING Optimization
+I Training epoch 0...
+I Training of Epoch 0 - loss: 139.576777
+I Validating epoch 0...
+I Validation of Epoch 0 - loss: 125.517455
+I Training epoch 1...
+I Training of Epoch 1 - loss: 130.769328
+I Validating epoch 1...
+I Validation of Epoch 1 - loss: 139.984837
+I Training epoch 2...
+I Training of Epoch 2 - loss: 120.133110
+I Validating epoch 2...
+I Validation of Epoch 2 - loss: 125.951786
+I Training epoch 3...
+I Training of Epoch 3 - loss: 112.074852
+I Validating epoch 3...
+I Validation of Epoch 3 - loss: 115.471527
+I Training epoch 4...
+I Training of Epoch 4 - loss: 105.071257
+I Validating epoch 4...
+I Validation of Epoch 4 - loss: 105.269345
+I Training epoch 5...
+I Training of Epoch 5 - loss: 98.730825
+I Validating epoch 5...
+I Validation of Epoch 5 - loss: 96.237039
+I Training epoch 6...
+I Training of Epoch 6 - loss: 92.834374
+I Validating epoch 6...
+I Validation of Epoch 6 - loss: 88.936943
+I Training epoch 7...
+I Training of Epoch 7 - loss: 87.249311
+I Validating epoch 7...
+I Validation of Epoch 7 - loss: 82.771919
+I Training epoch 8...
+I Training of Epoch 8 - loss: 82.606784
+I Validating epoch 8...
+I Validation of Epoch 8 - loss: 77.294533
+I Training epoch 9...
+I Training of Epoch 9 - loss: 78.770223
+I Validating epoch 9...
+I Validation of Epoch 9 - loss: 73.201836
+I Training epoch 10...
+I Training of Epoch 10 - loss: 75.567857
+I Validating epoch 10...
+I Validation of Epoch 10 - loss: 69.756280
+I Training epoch 11...
+I Training of Epoch 11 - loss: 72.852351
+I Validating epoch 11...
+I Validation of Epoch 11 - loss: 67.191567
+I Training epoch 12...
+I Training of Epoch 12 - loss: 70.426297
+I Validating epoch 12...
+I Validation of Epoch 12 - loss: 65.593797
+I Training epoch 13...
+I Training of Epoch 13 - loss: 68.350466
+I Validating epoch 13...
+I Validation of Epoch 13 - loss: 62.943860
+I Training epoch 14...
+I Training of Epoch 14 - loss: 66.566140
+I Validating epoch 14...
+I Validation of Epoch 14 - loss: 61.326393
+I Training epoch 15...
+I Training of Epoch 15 - loss: 64.897828
+I Validating epoch 15...
+I Validation of Epoch 15 - loss: 59.592461
+I Training epoch 16...
+I Training of Epoch 16 - loss: 63.362587
+I Validating epoch 16...
+I Validation of Epoch 16 - loss: 58.575888
+I Training epoch 17...
+I Training of Epoch 17 - loss: 61.986363
+I Validating epoch 17...
+I Validation of Epoch 17 - loss: 56.600148
+I Training epoch 18...
+I Training of Epoch 18 - loss: 60.716920
+I Validating epoch 18...
+I Validation of Epoch 18 - loss: 55.768907
+I Training epoch 19...
+I Training of Epoch 19 - loss: 59.511599
+I Validating epoch 19...
+I Validation of Epoch 19 - loss: 54.962107
+I Training epoch 20...
+I Training of Epoch 20 - loss: 58.445022
+I Validating epoch 20...
+I Validation of Epoch 20 - loss: 53.560332
+I Training epoch 21...
+I Training of Epoch 21 - loss: 57.388896
+I Validating epoch 21...
+I Validation of Epoch 21 - loss: 52.514158
+I Training epoch 22...
+I Training of Epoch 22 - loss: 56.455933
+I Validating epoch 22...
+I Validation of Epoch 22 - loss: 51.722655
+I Training epoch 23...
+I Training of Epoch 23 - loss: 55.514851
+I Validating epoch 23...
+I Validation of Epoch 23 - loss: 51.159441
+I Training epoch 24...
+I Training of Epoch 24 - loss: 54.666735
+I Validating epoch 24...
+I Validation of Epoch 24 - loss: 49.838675
+I Training epoch 25...
+I Training of Epoch 25 - loss: 53.892027
+I Validating epoch 25...
+I Validation of Epoch 25 - loss: 49.557616
+I Training epoch 26...
+I Training of Epoch 26 - loss: 53.125903
+I Validating epoch 26...
+I Validation of Epoch 26 - loss: 48.837523
+I Training epoch 27...
+I Training of Epoch 27 - loss: 52.408291
+I Validating epoch 27...
+I Validation of Epoch 27 - loss: 47.702462
+I Training epoch 28...
+I Training of Epoch 28 - loss: 51.612614
+I Validating epoch 28...
+I Validation of Epoch 28 - loss: 47.254141
+I Training epoch 29...
+I Training of Epoch 29 - loss: 50.950501
+I Validating epoch 29...
+I Validation of Epoch 29 - loss: 47.118067
+I Training epoch 30...
+I Training of Epoch 30 - loss: 50.457650
+I Validating epoch 30...
+I Validation of Epoch 30 - loss: 45.873161
+I Training epoch 31...
+I Training of Epoch 31 - loss: 49.758435
+I Validating epoch 31...
+I Validation of Epoch 31 - loss: 45.470360
+I Training epoch 32...
+I Training of Epoch 32 - loss: 49.246109
+I Validating epoch 32...
+I Validation of Epoch 32 - loss: 45.276231
+I Training epoch 33...
+I Training of Epoch 33 - loss: 48.636417
+I Validating epoch 33...
+I Validation of Epoch 33 - loss: 44.708207
+I Training epoch 34...
+I Training of Epoch 34 - loss: 48.111316
+I Validating epoch 34...
+I Validation of Epoch 34 - loss: 44.160669
+I Training epoch 35...
+I Training of Epoch 35 - loss: 47.613776
+I Validating epoch 35...
+I Validation of Epoch 35 - loss: 43.782715
+I Training epoch 36...
+I Training of Epoch 36 - loss: 47.106682
+I Validating epoch 36...
+I Validation of Epoch 36 - loss: 42.978626
+I Training epoch 37...
+I Training of Epoch 37 - loss: 46.591147
+I Validating epoch 37...
+I Validation of Epoch 37 - loss: 42.913936
+I Training epoch 38...
+I Training of Epoch 38 - loss: 46.177882
+I Validating epoch 38...
+I Validation of Epoch 38 - loss: 42.533015
+I Training epoch 39...
+I Training of Epoch 39 - loss: 45.670117
+I Validating epoch 39...
+I Validation of Epoch 39 - loss: 42.227340
+I Training epoch 40...
+I Training of Epoch 40 - loss: 45.281399
+I Validating epoch 40...
+I Validation of Epoch 40 - loss: 41.887270
+I Training epoch 41...
+I Training of Epoch 41 - loss: 44.819135
+I Validating epoch 41...
+I Validation of Epoch 41 - loss: 41.153859
+I Training epoch 42...
+I Training of Epoch 42 - loss: 44.393203
+I Validating epoch 42...
+I Validation of Epoch 42 - loss: 41.134694
+I Training epoch 43...
+I Training of Epoch 43 - loss: 44.022568
+I Validating epoch 43...
+I Validation of Epoch 43 - loss: 40.873467
+I Training epoch 44...
+I Training of Epoch 44 - loss: 43.647283
+I Validating epoch 44...
+I Validation of Epoch 44 - loss: 40.085036
+I Training epoch 45...
+I Training of Epoch 45 - loss: 43.296631
+I Validating epoch 45...
+I Validation of Epoch 45 - loss: 40.149058
+I Training epoch 46...
+I Training of Epoch 46 - loss: 42.854192
+I Validating epoch 46...
+I Validation of Epoch 46 - loss: 39.827044
+I Training epoch 47...
+I Training of Epoch 47 - loss: 42.515163
+I Validating epoch 47...
+I Validation of Epoch 47 - loss: 39.498892
+I Training epoch 48...
+I Training of Epoch 48 - loss: 42.136409
+I Validating epoch 48...
+I Validation of Epoch 48 - loss: 39.155778
+I Training epoch 49...
+I Training of Epoch 49 - loss: 41.875235
+I Validating epoch 49...
+I Validation of Epoch 49 - loss: 38.661972
+I Training epoch 50...
+I Training of Epoch 50 - loss: 41.513408
+I Validating epoch 50...
+I Validation of Epoch 50 - loss: 38.478174
+I Training epoch 51...
+I Training of Epoch 51 - loss: 41.268006
+I Validating epoch 51...
+I Validation of Epoch 51 - loss: 38.260989
+I Training epoch 52...
+I Training of Epoch 52 - loss: 40.831418
+I Validating epoch 52...
+I Validation of Epoch 52 - loss: 37.850386
+I Training epoch 53...
+I Training of Epoch 53 - loss: 40.548982
+I Validating epoch 53...
+I Validation of Epoch 53 - loss: 37.986569
+I Training epoch 54...
+I Training of Epoch 54 - loss: 40.282244
+I Validating epoch 54...
+I Validation of Epoch 54 - loss: 37.512971
+I Training epoch 55...
+I Training of Epoch 55 - loss: 40.045047
+I Validating epoch 55...
+I Validation of Epoch 55 - loss: 37.217143
+I Training epoch 56...
+I Training of Epoch 56 - loss: 39.699939
+I Validating epoch 56...
+I Validation of Epoch 56 - loss: 37.222741
+I Training epoch 57...
+I Training of Epoch 57 - loss: 39.463317
+I Validating epoch 57...
+I Validation of Epoch 57 - loss: 37.008154
+I Training epoch 58...
+I Training of Epoch 58 - loss: 39.181772
+I Validating epoch 58...
+I Validation of Epoch 58 - loss: 36.480420
+I Training epoch 59...
+I Training of Epoch 59 - loss: 38.876493
+I Validating epoch 59...
+I Validation of Epoch 59 - loss: 36.545351
+I Training epoch 60...
+I Training of Epoch 60 - loss: 38.703449
+I Validating epoch 60...
+I Validation of Epoch 60 - loss: 36.364692
+I Training epoch 61...
+I Training of Epoch 61 - loss: 38.376260
+I Validating epoch 61...
+I Validation of Epoch 61 - loss: 36.339774
+I Training epoch 62...
+I Training of Epoch 62 - loss: 38.149226
+I Validating epoch 62...
+I Validation of Epoch 62 - loss: 35.857686
+I Training epoch 63...
+I Training of Epoch 63 - loss: 37.829643
+I Validating epoch 63...
+I Validation of Epoch 63 - loss: 35.925377
+I Training epoch 64...
+I Training of Epoch 64 - loss: 37.768283
+I Validating epoch 64...
+I Validation of Epoch 64 - loss: 35.671200
+I Training epoch 65...
+I Training of Epoch 65 - loss: 37.447033
+I Validating epoch 65...
+I Validation of Epoch 65 - loss: 35.220539
+I Training epoch 66...
+I Training of Epoch 66 - loss: 37.163847
+I Validating epoch 66...
+I Validation of Epoch 66 - loss: 35.397302
+I Training epoch 67...
+I Training of Epoch 67 - loss: 36.876181
+I Validating epoch 67...
+I Validation of Epoch 67 - loss: 35.111930
+I Training epoch 68...
+I Training of Epoch 68 - loss: 36.697792
+I Validating epoch 68...
+I Validation of Epoch 68 - loss: 34.884024
+I Training epoch 69...
+I Training of Epoch 69 - loss: 36.536699
+I Validating epoch 69...
+I Validation of Epoch 69 - loss: 34.606545
+I Training epoch 70...
+I Training of Epoch 70 - loss: 36.304151
+I Validating epoch 70...
+I Validation of Epoch 70 - loss: 34.796440
+I Training epoch 71...
+I Training of Epoch 71 - loss: 36.076778
+I Validating epoch 71...
+I Validation of Epoch 71 - loss: 34.501337
+I Training epoch 72...
+I Training of Epoch 72 - loss: 35.890221
+I Validating epoch 72...
+I Validation of Epoch 72 - loss: 34.348467
+I Training epoch 73...
+I Training of Epoch 73 - loss: 35.688227
+I Validating epoch 73...
+I Validation of Epoch 73 - loss: 34.268410
+I Training epoch 74...
+I Training of Epoch 74 - loss: 35.626052
+I Validating epoch 74...
+I Validation of Epoch 74 - loss: 33.777956
+I Training epoch 75...
+I Training of Epoch 75 - loss: 35.294147
+I Validating epoch 75...
+I Validation of Epoch 75 - loss: 34.268778
+I Training epoch 76...
+I Training of Epoch 76 - loss: 35.148728
+I Validating epoch 76...
+I Validation of Epoch 76 - loss: 33.790907
+I Training epoch 77...
+I Training of Epoch 77 - loss: 34.947444
+I Validating epoch 77...
+I Validation of Epoch 77 - loss: 33.573876
+I Training epoch 78...
+I Training of Epoch 78 - loss: 34.744777
+I Validating epoch 78...
+I Validation of Epoch 78 - loss: 33.546555
+I Training epoch 79...
+I Training of Epoch 79 - loss: 34.636520
+I Validating epoch 79...
+I Validation of Epoch 79 - loss: 33.083847
+I Training epoch 80...
+I Training of Epoch 80 - loss: 34.403630
+I Validating epoch 80...
+I Validation of Epoch 80 - loss: 33.277261
+I Training epoch 81...
+I Training of Epoch 81 - loss: 34.160027
+I Validating epoch 81...
+I Validation of Epoch 81 - loss: 32.927426
+I Training epoch 82...
+I Training of Epoch 82 - loss: 34.023778
+I Validating epoch 82...
+I Validation of Epoch 82 - loss: 33.083415
+I Training epoch 83...
+I Training of Epoch 83 - loss: 33.882920
+I Validating epoch 83...
+I Validation of Epoch 83 - loss: 33.059750
+I Training epoch 84...
+I Training of Epoch 84 - loss: 33.732489
+I Validating epoch 84...
+I Validation of Epoch 84 - loss: 32.803737
+I Training epoch 85...
+I Training of Epoch 85 - loss: 33.597783
+I Validating epoch 85...
+I Validation of Epoch 85 - loss: 33.010034
+I Training epoch 86...
+I Training of Epoch 86 - loss: 33.322924
+I Validating epoch 86...
+I Validation of Epoch 86 - loss: 32.425962
+I Training epoch 87...
+I Training of Epoch 87 - loss: 33.226897
+I Validating epoch 87...
+I Validation of Epoch 87 - loss: 32.585159
+I Training epoch 88...
+I Training of Epoch 88 - loss: 33.080008
+I Validating epoch 88...
+I Validation of Epoch 88 - loss: 32.402795
+I Training epoch 89...
+I Training of Epoch 89 - loss: 32.940105
+I Validating epoch 89...
+I Validation of Epoch 89 - loss: 32.070624
+I Training epoch 90...
+I Training of Epoch 90 - loss: 32.740077
+I Validating epoch 90...
+I Validation of Epoch 90 - loss: 32.372960
+I Training epoch 91...
+I Training of Epoch 91 - loss: 32.640970
+I Validating epoch 91...
+I Validation of Epoch 91 - loss: 32.126401
+I Training epoch 92...
+I Training of Epoch 92 - loss: 32.498845
+I Validating epoch 92...
+I Validation of Epoch 92 - loss: 32.348316
+I Training epoch 93...
+I Training of Epoch 93 - loss: 32.377582
+I Validating epoch 93...
+I Validation of Epoch 93 - loss: 31.845242
+I Training epoch 94...
+I Training of Epoch 94 - loss: 32.209784
+I Validating epoch 94...
+I Validation of Epoch 94 - loss: 31.535133
+I Training epoch 95...
+I Training of Epoch 95 - loss: 32.010292
+I Validating epoch 95...
+I Validation of Epoch 95 - loss: 31.955750
+I Training epoch 96...
+I Training of Epoch 96 - loss: 31.929112
+I Validating epoch 96...
+I Validation of Epoch 96 - loss: 31.727019
+I Training epoch 97...
+I Training of Epoch 97 - loss: 31.807021
+I Validating epoch 97...
+I Validation of Epoch 97 - loss: 31.577708
+I Training epoch 98...
+I Training of Epoch 98 - loss: 31.589442
+I Validating epoch 98...
+I Validation of Epoch 98 - loss: 31.536917
+I Training epoch 99...
+I Training of Epoch 99 - loss: 31.491569
+I Validating epoch 99...
+I Validation of Epoch 99 - loss: 31.558116
+I FINISHED Optimization - training time: 1:37:17
+Preprocessing ['/home/guest/Desktop/Common_Data_New/test.csv']
+functools.partial(<function process_single_file at 0x7f03f3bb5f28>, numcep=26, numcontext=9, alphabet=<util.text.Alphabet object at 0x7f03ec3b1860>)
+Preprocessing done
+Computing acoustic model predictions...
+Decoding predictions...
+Test - WER: 0.248341, CER: 0.111880, loss: 30.092115
+--------------------------------------------------------------------------------
+WER: 4.000000, CER: 6.000000, loss: 29.411131
+ - src: "dtmf"
+ - res: "det e m ä"
+--------------------------------------------------------------------------------
+WER: 4.000000, CER: 8.000000, loss: 31.885271
+ - src: "tvåhundrafyrtioett"
+ - res: "två dra för ett"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 3.000000, loss: 5.176289
+ - src: "degerhamn"
+ - res: "de ger han"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 5.000000, loss: 9.258043
+ - src: "norsjö"
+ - res: "bor i kö"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 7.000000, loss: 9.549424
+ - src: "dagordning"
+ - res: "där går min"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 3.000000, loss: 9.953403
+ - src: "sos"
+ - res: "s a s"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 6.000000, loss: 10.871912
+ - src: "broddetorp"
+ - res: "bra det har"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 3.000000, loss: 12.590583
+ - src: "virserum"
+ - res: "vi ser om"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 5.000000, loss: 13.411981
+ - src: "rinkaby"
+ - res: "de ringa by"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 4.000000, loss: 13.975163
+ - src: "oskarshamn"
+ - res: "o ska han"
+--------------------------------------------------------------------------------
+WER: 3.000000, CER: 6.000000, loss: 16.385118
+ - src: "oktober"
+ - res: "och då ber"
+--------------------------------------------------------------------------------
+WER: 2.500000, CER: 8.000000, loss: 39.865276
+ - src: "madeleine halvarsson"
+ - res: "man delen han var som"
+--------------------------------------------------------------------------------
+WER: 2.500000, CER: 11.000000, loss: 51.182320
+ - src: "madeleine abrahamsson"
+ - res: "man delen av rand som"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 0.157463
+ - src: "am"
+ - res: "a m"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 0.161407
+ - src: "am"
+ - res: "a m"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 0.764269
+ - src: "framför"
+ - res: "fram för"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 2.090767
+ - src: "armen"
+ - res: "är men"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 2.120124
+ - src: "såsom"
+ - res: "så som"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 3.883055
+ - src: "färdigt"
+ - res: "är det"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 3.949988
+ - src: "handlade"
+ - res: "han lade"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 4.352397
+ - src: "hotade"
+ - res: "ta det"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 4.461351
+ - src: "varnhem"
+ - res: "var en"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 4.872747
+ - src: "hålla"
+ - res: "hon la"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 5.027565
+ - src: "sifo"
+ - res: "siv få"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 5.542563
+ - src: "bestämt"
+ - res: "det stämt"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 5.678095
+ - src: "knutby"
+ - res: "nu i"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 5.694793
+ - src: "lavsjön"
+ - res: "la skön"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 5.842434
+ - src: "hotell"
+ - res: "på tal"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 5.900194
+ - src: "kairo"
+ - res: "kaj o"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 6.046038
+ - src: "numera"
+ - res: "nu mera"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 6.592858
+ - src: "fordon"
+ - res: "for om"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 6.967976
+ - src: "robertsfors"
+ - res: "roger fors"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 7.147967
+ - src: "nästa"
+ - res: "s a"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 7.447180
+ - src: "orsa"
+ - res: "och ja"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 7.533433
+ - src: "påarp"
+ - res: "på er"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 6.000000, loss: 7.754387
+ - src: "emmaboda"
+ - res: "man borde"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 7.853004
+ - src: "markera"
+ - res: "men kära"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 7.889380
+ - src: "hölö"
+ - res: "här lär"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 8.206124
+ - src: "broaryd"
+ - res: "bror i"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 8.430801
+ - src: "torsby"
+ - res: "tors dig"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 8.453913
+ - src: "gps"
+ - res: "de s"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 8.469255
+ - src: "inslag"
+ - res: "en slag"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 8.517476
+ - src: "sundborn"
+ - res: "så barn"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 8.716978
+ - src: "kassett"
+ - res: "tre ett"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 8.926468
+ - src: "eftermiddag"
+ - res: "efter middag"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 8.993915
+ - src: "vidarebefordra"
+ - res: "vidare befordra"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 1.000000, loss: 9.083317
+ - src: "råneå"
+ - res: "rån å"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 9.126447
+ - src: "rapport"
+ - res: "ja port"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 9.208536
+ - src: "fåtölj"
+ - res: "får ta"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 9.929778
+ - src: "kanal"
+ - res: "han all"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 9.970796
+ - src: "detaljer"
+ - res: "det talar"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 10.144087
+ - src: "östmark"
+ - res: "st märk"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 10.246395
+ - src: "bensin"
+ - res: "vän si"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 10.656103
+ - src: "arbeta"
+ - res: "är det"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 11.112736
+ - src: "boxholm"
+ - res: "dock om"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 11.553964
+ - src: "byggde"
+ - res: "dög de"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 11.692369
+ - src: "värme"
+ - res: "värre med"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 11.932350
+ - src: "nynäshamn"
+ - res: "ninos han"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 12.377629
+ - src: "ljusstyrka"
+ - res: "ljust ute"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 12.617780
+ - src: "dimljus"
+ - res: "de mus"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 12.757726
+ - src: "ljusterö"
+ - res: "ju större"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 13.668753
+ - src: "intercom"
+ - res: "inte kom"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 2.000000, loss: 14.887916
+ - src: "sibbhult"
+ - res: "siv hult"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 6.000000, loss: 15.009945
+ - src: "mjöbäck"
+ - res: "i övre"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 15.114504
+ - src: "söndagen"
+ - res: "fan dagen"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 6.000000, loss: 15.232282
+ - src: "mölnlycke"
+ - res: "men lika"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 8.000000, loss: 15.354639
+ - src: "karin ekelund"
+ - res: "har en egen under"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 3.000000, loss: 15.407078
+ - src: "återuppringning"
+ - res: "åter ringning"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 6.000000, loss: 16.545475
+ - src: "kalvsvik"
+ - res: "en kik"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 16.805691
+ - src: "nödläge"
+ - res: "nära läge"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 7.000000, loss: 17.147545
+ - src: "återställ"
+ - res: "å sen"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 19.089327
+ - src: "sofia"
+ - res: "så fe"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 4.000000, loss: 20.479280
+ - src: "tällberg"
+ - res: "tell är"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 6.000000, loss: 22.402784
+ - src: "rekreation"
+ - res: "teckna hon"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 9.000000, loss: 22.968294
+ - src: "elvira kristoffersson"
+ - res: "en riva testoffer som"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 7.000000, loss: 23.375622
+ - src: "gottfrid franzen"
+ - res: "gått i fram sen"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 9.000000, loss: 23.990196
+ - src: "temperatur"
+ - res: "femtioett hu"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 9.000000, loss: 27.492142
+ - src: "holger ljung"
+ - res: "har du blev ung"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 9.000000, loss: 32.065746
+ - src: "produktionen"
+ - res: "tråden kan"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 5.000000, loss: 32.367714
+ - src: "jokkmokk"
+ - res: "lock mot"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 11.000000, loss: 34.132881
+ - src: "fritiof rosenqvist"
+ - res: "tre av frusen trist"
+--------------------------------------------------------------------------------
+WER: 1.666667, CER: 17.000000, loss: 50.363087
+ - src: "tio tusen trehundrasextiosex"
+ - res: "ty som känt runda sextioett"
+--------------------------------------------------------------------------------
+WER: 1.666667, CER: 9.000000, loss: 52.631866
+ - src: "fyrtiosex tusen etthundraåttiofem"
+ - res: "åttiosex tusen ett andra i fem"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 3.000000, loss: 12.764937
+ - src: "per hansen"
+ - res: "är han sen"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 5.000000, loss: 15.802939
+ - src: "håkan lindström"
+ - res: "han i ström"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 4.000000, loss: 19.717983
+ - src: "ruth stenberg"
+ - res: "rut sten bär"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 8.000000, loss: 21.240879
+ - src: "bernhard öhman"
+ - res: "barnen är man"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 4.000000, loss: 21.650597
+ - src: "johanna westin"
+ - res: "jag hanna vestin"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 6.000000, loss: 23.281906
+ - src: "carin holmqvist"
+ - res: "karin som tyst"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 8.000000, loss: 25.971546
+ - src: "georg wall"
+ - res: "vi gör val"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 8.000000, loss: 27.916721
+ - src: "louise åberg"
+ - res: "vis å där"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 6.000000, loss: 30.032166
+ - src: "augusta ohlsson"
+ - res: "är gosa olsson"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 5.000000, loss: 30.167377
+ - src: "siv wahlberg"
+ - res: "s val berg"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 9.000000, loss: 30.196072
+ - src: "astrid jansson"
+ - res: "att sitta som"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 7.000000, loss: 36.150932
+ - src: "lennart granath"
+ - res: "lena kan at"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 8.000000, loss: 39.172398
+ - src: "eric paulsson"
+ - res: "är på som"
+--------------------------------------------------------------------------------
+WER: 1.333333, CER: 9.000000, loss: 28.802950
+ - src: "ann britt israelsson"
+ - res: "and it is rälsen"
+--------------------------------------------------------------------------------
+WER: 1.333333, CER: 21.000000, loss: 61.306000
+ - src: "måla med linoljefärg eller oljebaserad lackfärg"
+ - res: "måla med lina och far eller och i vasa ja far"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 30.000000, loss: 121.424149
+ - src: "de europeiska och amerikanska ekonomierna klarar sig ganska väl utan den ryska"
+ - res: "det är o piska och en i kanske ekonomin e klara sigen ska väl leta luska"
+--------------------------------------------------------------------------------
+WER: 1.200000, CER: 18.000000, loss: 74.026062
+ - src: "det är förresten åt det hållet alltfler europeiska väljare går"
+ - res: "de föresten om de hållet att fler är piska väljar i vår"
+--------------------------------------------------------------------------------
+I Exporting the model...
+I Models exported at /home/guest/Desktop/DeepSpeech/results/model_export/

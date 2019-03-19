@@ -1,0 +1,71 @@
+Preprocessing ['/home/guest/Desktop/Common_Data_New/train.csv']
+functools.partial(<function process_single_file at 0x7fd2e2033f28>, numcep=26, numcontext=9, alphabet=<util.text.Alphabet object at 0x7fd2da82f828>)
+Preprocessing done
+Preprocessing ['/home/guest/Desktop/Common_Data_New/dev.csv']
+functools.partial(<function process_single_file at 0x7fd2e2033f28>, numcep=26, numcontext=9, alphabet=<util.text.Alphabet object at 0x7fd2da82f828>)
+Preprocessing done
+E Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+E 
+E Assign requires shapes of both tensors to match. lhs shape= [400] rhs shape= [375]
+E 	 [[node save_1/Assign_6 (defined at DeepSpeech.py:550)  = Assign[T=DT_FLOAT, _class=["loc:@b2"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](b2/Adam_1, save_1/RestoreV2_1/_15)]]
+E 
+E Caused by op 'save_1/Assign_6', defined at:
+E   File "DeepSpeech.py", line 951, in <module>
+E     tf.app.run(main)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/platform/app.py", line 125, in run
+E     _sys.exit(main(argv))
+E   File "DeepSpeech.py", line 899, in main
+E     train()
+E   File "DeepSpeech.py", line 550, in train
+E     config=Config.session_config) as session:
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 504, in MonitoredTrainingSession
+E     stop_grace_period_secs=stop_grace_period_secs)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 921, in __init__
+E     stop_grace_period_secs=stop_grace_period_secs)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 643, in __init__
+E     self._sess = _RecoverableSession(self._coordinated_creator)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 1107, in __init__
+E     _WrappedSession.__init__(self, self._create_session())
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 1112, in _create_session
+E     return self._sess_creator.create_session()
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 800, in create_session
+E     self.tf_sess = self._session_creator.create_session()
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 557, in create_session
+E     self._scaffold.finalize()
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/monitored_session.py", line 213, in finalize
+E     self._saver = training_saver._get_saver_or_default()  # pylint: disable=protected-access
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 886, in _get_saver_or_default
+E     saver = Saver(sharded=True, allow_empty=True)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+E     self.build()
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+E     self._build(self._filename, build_save=True, build_restore=True)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+E     build_save=build_save, build_restore=build_restore)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 789, in _build_internal
+E     restore_sequentially, reshape)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 459, in _AddShardedRestoreOps
+E     name="restore_shard"))
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+E     assign_ops.append(saveable.restore(saveable_tensors, shapes))
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+E     self.op.get_shape().is_fully_defined())
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+E     validate_shape=validate_shape)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+E     use_locking=use_locking, name=name)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+E     op_def=op_def)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+E     return func(*args, **kwargs)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+E     op_def=op_def)
+E   File "/home/guest/miniconda3/envs/speech/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+E     self._traceback = tf_stack.extract_stack()
+E 
+E InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+E 
+E Assign requires shapes of both tensors to match. lhs shape= [400] rhs shape= [375]
+E 	 [[node save_1/Assign_6 (defined at DeepSpeech.py:550)  = Assign[T=DT_FLOAT, _class=["loc:@b2"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](b2/Adam_1, save_1/RestoreV2_1/_15)]]
+E 
+E The checkpoint in /home/guest/Desktop/DeepSpeech/results/checkout/ does not match the shapes of the model. Did you change alphabet.txt or the --n_hidden parameter between train runs using the same checkpoint dir? Try moving or removing the contents of /home/guest/Desktop/DeepSpeech/results/checkout/.
