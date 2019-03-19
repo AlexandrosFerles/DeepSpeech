@@ -3,31 +3,34 @@
 # A line that starts with # is a comment. You can escape it with \# if you wish
 # to use '#' as a label.
  
-a
 b
 c
 d
-e
 f
 g
 h
-i
 j
 k
 l
 m
 n
-o
 p
 q
 r
 s
 t
-u
 v
 w
 x
-y
 z
+a
+e
+i
+o
+u
+y
+å
+ä
+ö
 '
 # The last (non-comment) line needs to end with a newline.
