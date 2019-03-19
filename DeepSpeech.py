@@ -15,6 +15,7 @@ import shutil
 import tempfile
 import tensorflow as tf
 import traceback
+import time
 
 from ds_ctcdecoder import ctc_beam_search_decoder, Scorer
 from six.moves import zip, range
@@ -396,7 +397,6 @@ def train(server=None):
                         FLAGS.train_batch_size,
                         limit=FLAGS.limit_train,
                         next_index=lambda i: coord.get_next_index('train'))
-
     # Reading validation set
     dev_data = preprocess(FLAGS.dev_files.split(','),
                           FLAGS.dev_batch_size,
@@ -409,7 +409,6 @@ def train(server=None):
                       FLAGS.dev_batch_size,
                       limit=FLAGS.limit_dev,
                       next_index=lambda i: coord.get_next_index('dev'))
-
     # Combining all sets to a multi set model feeder
     model_feeder = ModelFeeder(train_set,
                                dev_set,
@@ -908,6 +907,7 @@ def main(_):
                 # We are a parameter server and therefore we just wait for all workers to finish
                 # by waiting for their stop tokens.
                 with tf.Session(server.target) as session:
+
                     for worker in FLAGS.worker_hosts:
                         log_debug('Waiting for stop token...')
                         token = session.run(Config.done_dequeues[FLAGS.task_index])
@@ -942,5 +942,11 @@ def main(_):
         do_single_file_inference(FLAGS.one_shot_infer)
 
 if __name__ == '__main__' :
+
+    start = time.time()
+
     create_flags()
     tf.app.run(main)
+
+    end = time.time()
+    print(end - start)
