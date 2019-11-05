@@ -22,3 +22,6 @@ Place the checkpointed files in the 'results/checkout' and 'results/moder_export
 
 You can find more information on our project [report](https://github.com/AlexandrosFerles/DeepSpeech/blob/master/report/Automatic_Speech_Recognition_of_the_Swedish_Language_Project_Report.pdf).
 
+# Μembers 
+
+This work was completed with the contribution of [Anastasios Lamproudis](https://github.com/TLampr) and [Laonidas Valavanis](https://github.com/valavanisleonidas) whom I deeply thank. 
