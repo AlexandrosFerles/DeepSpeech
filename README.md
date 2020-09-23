@@ -24,4 +24,4 @@ You can find more information on our project [report](https://github.com/Alexand
 
 # Μembers 
 
-This work was completed with the contribution of [Anastasios Lamproudis](https://github.com/TLampr) and [Laonidas Valavanis](https://github.com/valavanisleonidas) whom I deeply thank. 
+This work was completed with the contribution of [Anastasios Lamproudis](https://github.com/TLampr) and [Leonidas Valavanis](https://github.com/valavanisleonidas) whom I deeply thank. 
